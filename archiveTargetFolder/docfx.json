@@ -1,13 +1,51 @@
 {
   "build": {
     "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ],
+        "src": "."
+      }
     ],
     "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ],
+        "src": "."
+      }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "Standard"
+      "feedback_system": "Standard",
+      "breadcrumb_path": "/DocsE2EArchiveTarget/breadcrumb/E2EArchiveTarget_90546b7b-c00e-4fff-b0f2-5b79022dbe82/toc.json",
+      "extendBreadcrumb": true,
+      "docs_archive": "tool",
+      "uhfHeaderId": "MSDocsHeader-Archive"
     },
     "fileMetadata": {},
     "template": [],

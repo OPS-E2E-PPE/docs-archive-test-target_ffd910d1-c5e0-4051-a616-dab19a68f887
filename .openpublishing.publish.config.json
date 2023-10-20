@@ -7,6 +7,9 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
+      "xref_query_tags": [
+        "/DocsE2EArchiveSource"
+      ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content"
@@ -20,7 +23,9 @@
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
+  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -30,8 +35,6 @@
     }
   ],
   "branch_target_mapping": {},
-  "docs_build_engine": {},
-  "skip_source_output_uploading": false,
-  "contribution_branch_mappings": {},
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": false,
+  "docs_build_engine": {}
 }
